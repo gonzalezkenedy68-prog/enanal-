@@ -167,7 +167,7 @@
             box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
         }
 
-        /* Área de Firma Completa y Calcada */
+        /* Área de Firma Completa */
         .signature-block {
             position: relative;
             width: 320px;
@@ -175,7 +175,6 @@
             margin: 20px auto;
         }
 
-        /* Iniciales "ig." en la parte superior izquierda */
         .sig-ig {
             position: absolute;
             top: 10px;
@@ -186,7 +185,6 @@
             opacity: 0.9;
         }
 
-        /* Vector SVG para recrear exactamente la corona con los tres puntos de la foto */
         .sig-crown-svg {
             position: absolute;
             top: 45px;
@@ -201,7 +199,6 @@
             filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.3));
         }
 
-        /* Texto de la firma principal */
         .sig-name {
             position: absolute;
             top: 85px;
@@ -235,7 +232,7 @@
             margin-top: 5px;
         }
 
-        /* Contenedor Exclusivo para el Código QR Personalizado */
+        /* Contenedor del Código QR */
         .qr-wrapper {
             margin-top: 40px;
             display: flex;
@@ -305,26 +302,26 @@
         <div class="container">
             <span class="subtitle">Kenedy González Presenta</span>
             <h1>ENNANAL</h1>
-            <p style="margin-bottom: 50px;">Ennanal no es solo un nombre, es el estándar de oro para el liderazgo moderno bajo la visión de Kenedy González[cite: 2].</p>
+            <p style="margin-bottom: 50px;">Ennanal no es solo un nombre, es el estándar de oro para el liderazgo moderno bajo la visión de Kenedy González.</p>
             
             <div class="mv-grid">
                 <div class="mv-box">
                     <h3>Nuestra Misión</h3>
-                    <p>Catalizar el crecimiento de negocios de alto impacto mediante estrategias disruptivas y un diseño de soluciones basado en la excelencia operativa[cite: 2].</p>
+                    <p>Catalizar el crecimiento de negocios de alto impacto mediante estrategias disruptivas y un diseño de soluciones basado en la excelencia operativa.</p>
                 </div>
                 <div class="mv-box">
                     <h3>Nuestra Visión</h3>
-                    <p>Convertirnos en el referente indiscutible de consultoría y desarrollo de marca personal en la región, exportando talento y visión global[cite: 2].</p>
+                    <p>Convertirnos en el referente indiscutible de consultoría y desarrollo de marca personal en la región, exportando talento y visión global.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Sección 2: Crecimiento y Alcance (Métricas) -->
+    <!-- Sección 2: Crecimiento y Alcance -->
     <section id="rendimiento">
         <div class="container">
             <h2>Crecimiento y <span>Alcance</span></h2>
-            <p style="color: #a0aab5; max-width: 700px; margin: 0 auto; margin-bottom: 30px;">Datos proyectados basados en el performance de marca del primer trimestre bajo la gestión de Ennanal[cite: 2].</p>
+            <p style="color: #a0aab5; max-width: 700px; margin: 0 auto; margin-bottom: 30px;">Datos proyectados basados en el performance de marca del primer trimestre bajo la gestión de Ennanal.</p>
             
             <div class="metrics-container">
                 <div class="metric-label">
@@ -354,36 +351,28 @@
         </div>
     </section>
 
-    <!-- Sección 3: Validación Institucional con tu firma e "ig." -->
+    <!-- Sección 3: Validación Institucional -->
     <section id="adn">
         <div class="container">
             <h2>Estética de <span>Poder</span></h2>
             <p style="color: #a0aab5; max-width: 650px; margin: 0 auto 20px auto; font-size: 15px;">
-                En Ennanal, creemos que el diseño no es solo decoración; es una herramienta de negociación silenciosa[cite: 2]. Cada aspecto visual de nuestra marca está diseñado para transmitir confianza, estabilidad y sofisticación[cite: 2].
+                En Ennanal, creemos que el diseño no es solo decoración; es una herramienta de negociación silenciosa. Cada aspecto visual de nuestra marca está diseñado para transmitir confianza, estabilidad y sofisticación.
             </p>
             
-            <!-- Contenedor que replica exactamente el diseño de tu firma (IMG-20260603-WA0001.jpg) -->
             <div class="signature-block">
-                <!-- El "ig." de la esquina -->
                 <div class="sig-ig">ig.</div>
-                
-                <!-- Corona calcada con sus 3 puntos correspondientes -->
                 <svg class="sig-crown-svg" viewBox="0 0 100 60">
-                    <!-- Corona central -->
                     <path d="M 15 50 L 85 50 L 80 25 L 62 42 L 50 15 L 38 42 L 20 25 Z" />
-                    <!-- Los tres puntos reglamentarios del diseño de tu firma -->
                     <circle cx="20" cy="20" r="3" fill="#ffffff" />
                     <circle cx="50" cy="10" r="3" fill="#ffffff" />
                     <circle cx="80" cy="20" r="3" fill="#ffffff" />
                 </svg>
-                
-                <!-- El texto manuscrito "Enmanuel..." -->
                 <div class="sig-name">Enmanuel...</div>
             </div>
 
             <div class="line"></div>
             <div class="title-founder">Kenedy González</div>
-            <div class="company-founder">Fundador y Estratega Principal — Ennanal[cite: 2]</div>
+            <div class="company-founder">Fundador y Estratega Principal — Ennanal</div>
 
             <!-- Bloque del Código QR Real -->
             <div class="qr-wrapper">
@@ -397,18 +386,18 @@
 
     <!-- Pie de Página -->
     <footer>
-        &copy; 2026 ENNANAL | KENEDY GONZÁLEZ. Todos los derechos reservados[cite: 2].
+        &copy; 2026 ENNANAL | KENEDY GONZÁLEZ. Todos los derechos reservados.
     </footer>
 
-    <!-- Script encargado de pintar el código QR real apuntando a tu dominio corporativo -->
+    <!-- Script oficial que genera un QR escaneable y limpio -->
     <script>
         var qrcode = new QRCode(document.getElementById("qrcode"), {
-            text: "https://www.ennanal.com",
-            width: 130,
-            height: 130,
+            text: "https://github.com/gonzalezkenedy68-prog/enanal-", // <-- REEMPLAZA ESTO por tu enlace de GitHub o Tiiny.host si aún no tienes el dominio comprado
+            width: 140,
+            height: 140,
             colorDark : "#0a1118",
             colorLight : "#ffffff",
-            correctLevel : QRCode.CorrectLevel.H
+            correctLevel : QRCode.CorrectLevel.M
         });
     </script>
 </body>
